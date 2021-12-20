@@ -20,17 +20,18 @@ Go to your web browser and get into `$ localhost:8080/api/riches/all`
 <h4> To Post a Rich person to the database </h4>
 
 send json body like this one:
+
 {
   "id": 123456789,
-  "personalInfo": {
-    "firstName": "Bill",
-    "lastName": "Gates",
-    "city": "Washington"
-  },
-  "financialInfo": {
-    "cash": 16000000000,
-    "numberOfAssets": 50
-  }
+  "personalInfo": {  
+    "firstName": "Bill",   
+    "lastName": "Gates",    
+    "city": "Washington"    
+  }, 
+  "financialInfo": { 
+    "cash": 16000000000,   
+    "numberOfAssets": 50   
+  } 
 }
 
 to: `$ http://localhost:8080/api/riches/saveRich`
